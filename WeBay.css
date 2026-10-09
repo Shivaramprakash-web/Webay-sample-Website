@@ -80,15 +80,14 @@ a {
   font-weight: bold;
 }
 
+
 .categories {
   background-color: rgba(35, 47, 62, 1);
-  padding: 0px 10px;
-  gap: 20px;
+  padding: 0 10px;
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
 }
-
 
 .categories a {
   color: rgba(255, 255, 255, 1);
@@ -100,9 +99,9 @@ a {
 }
 
 .categories a:hover {
- border: 1px solid #ffffff;
- 
+  border: 1px solid rgba(255, 255, 255, 1);
 }
+
 
 .hero {
   background-color: rgba(44, 62, 80, 1);
